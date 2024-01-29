@@ -1,12 +1,12 @@
 import Project from '../components/Project';
 import projects from '../data/projects.json';
-import "./home.css";
+import "../App.css";
 
 function ProjectsGallery() {
     return (
     <div>
           <div>
-              <p className="project-intro">PROJECTS Gallery</p>
+              <p className="project-intro">PROJECTS GALLERY</p>
           </div>
           <div className='row' style ={{'--col-gap':'.25rem', gap:'.25rem'}}>
               { projects.map((project) => {

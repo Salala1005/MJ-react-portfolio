@@ -1,11 +1,34 @@
 
+.navbar {
+  --bs-navbar-hover-color:rgba(var(--bs-emphasis-color-rgb), 1);
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
 .nav-link {
+  /* --bs-navbar-hover-color:white; */
   color: var(--2, #286F6C);
   font-family: Poppins;
   font-size: 16px;
+  /* padding-top: 30px; */
+  font-weight: 400;
 }
 
 .navbar-brand {
-  color: var(--2, #286F6C);
+  /* color: var(--2, #286F6C); */
+  color: aliceblue;
   padding-left: 20px;
+  padding-top: 10px;
+  font-weight: 3000;
+  
+}
+
+.navbar-nav .nav-link.active {
+  color: aliceblue;
+}
+
+.btn-sm {
+  padding-left: none;
+  padding-top: none;
+  /* minWidth: 80px; */
 }

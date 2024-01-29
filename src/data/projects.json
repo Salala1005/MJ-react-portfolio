@@ -1,15 +1,16 @@
+
 [
   {
       "id": 1,
       "title": "My awesome project",
       "description": "This is my awesome project that I have done in just 1 hour",
-      "image": "/assets/screencapture-127-0-0-1-5500-bootstrap-portfolio-MJ-bootstrap-portfolio-index-html-2023-11-07-00_01_52.png"
+      "image": "/assets/image-project-1.png"
   },
   {
       "id": 2,
       "title": "My awesome project 2",
       "description": "This is my awesome project that I have done in just 2 hours",
-      "image": "/img/project-2.png"
+      "image": "/assets/image-project-1.png"
   },
   {
       "id": 3,

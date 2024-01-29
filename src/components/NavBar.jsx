@@ -35,6 +35,7 @@ function NavBar() {
                 Contact
               </NavLink>
             </li>
+            <button type="button" className="btn btn-success btn-sm">RESUME</button>
           </ul>
         </div>
       </div>

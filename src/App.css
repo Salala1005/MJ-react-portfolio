@@ -1,10 +1,9 @@
 
-
 body {
   color: var(--2, #286F6C);
   font-family: Poppins;
-  margin: 0;  /* Remove default body margin */
-  padding: 0; /* Remove default body padding */
+  margin: 0; 
+  padding: 0; 
   background-image: url("/assets/philip-oroni-8Xi9y3bi_qk-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,13 +17,52 @@ body {
 
 .contact-info {
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 35px;
   color: aliceblue;
   padding-left: 30px;
+  padding-top: 30px;
 }
 
+.contact-email-github {
+  font-family: Poppins;
+  font-size: 15px;
+  color: aliceblue;
+  /* padding-left: 300px; */
+}
+ 
 .form-label {
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 15px;
   color: aliceblue;
+}
+
+.intro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: var(--5, #0D2F3F); */
+  color: aliceblue;
+  font-family: "Poppins";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px; /* 120.833% */
+  height: 30vh;
+}
+.intro-description {
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.project-intro {
+  color: aliceblue;
+  font-family: "Poppins";
+  font-size: 35px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
