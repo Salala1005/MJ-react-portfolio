@@ -1,0 +1,30 @@
+
+
+body {
+  color: var(--2, #286F6C);
+  font-family: Poppins;
+  margin: 0;  /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  background-image: url("/assets/philip-oroni-8Xi9y3bi_qk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.col-4 {
+  width:calc(100% / 3 - var(--col-gap) * 2 / 3);
+  padding: 30px;
+}
+
+.contact-info {
+  font-family: Poppins;
+  font-size: 40px;
+  color: aliceblue;
+  padding-left: 30px;
+}
+
+.form-label {
+  font-family: Poppins;
+  font-size: 20px;
+  color: aliceblue;
+}

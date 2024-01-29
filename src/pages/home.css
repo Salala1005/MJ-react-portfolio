@@ -1,0 +1,41 @@
+
+.intro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: var(--5, #0D2F3F); */
+  color: aliceblue;
+  font-family: "Poppins";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px; /* 120.833% */
+  height: 30vh;
+}
+.intro-description {
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+
+
+
+}
+
+.contact-info {
+  font-family: "Poppins";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  color: aliceblue;
+  /* color: var(--2, #286F6C); */
+}
+
+.project-intro {
+  color: var(--2, #286F6C); 
+  font-family: "Poppins";
+  font-size: 60px;
+}
