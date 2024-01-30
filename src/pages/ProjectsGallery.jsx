@@ -10,7 +10,7 @@ function ProjectsGallery() {
           </div>
           <div className='row' style ={{'--col-gap':'.25rem', gap:'.25rem'}}>
               { projects.map((project) => {
-                  return <Project key={project.id} title={project.title} description={project.description} />;
+                  return <Project key={project.id} title={project.title} description={project.description} image={project.image} />;
               })}
           </div>
     </div>

@@ -1,7 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+import resume from "/assets/MJ-FrontEnd.pdf";
 
 function NavBar() {
+  const resumeBtn = "/assets/MJ-FrontEnd.pdf";
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
@@ -35,7 +37,9 @@ function NavBar() {
                 Contact
               </NavLink>
             </li>
+            <a href={resume} download={resume}>
             <button type="button" className="btn btn-success btn-sm">RESUME</button>
+            </a>
           </ul>
         </div>
       </div>

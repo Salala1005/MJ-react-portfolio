@@ -10,30 +10,32 @@
       "id": 2,
       "title": "My awesome project 2",
       "description": "This is my awesome project that I have done in just 2 hours",
-      "image": "/assets/image-project-1.png"
+      "image": "/assets/image-project-2.png"
   },
   {
       "id": 3,
       "title": "My awesome project 3",
       "description": "This is my awesome project that I have done in just 3 hours",
-      "image": "/img/project-3.png"
+      "image": "/assets/image-project-3.png",
+      "link1": "https://salala1005.github.io/MJ-portfolio-web/",
+      "link2": "https://github.com/Salala1005/MJ-portfolio-web"
   },
   {
       "id": 4,
       "title": "My awesome project 4",
       "description": "This is my awesome project that I have done in just 3 hours",
-      "image": "/img/project-3.png"
+      "image": "/assets/image-project-4.png"
   },
   {
       "id": 5,
       "title": "My awesome project 5",
       "description": "This is my awesome project that I have done in just 3 hours",
-      "image": "/img/project-3.png"
+      "image": "/assets/image-project-5.png"
   },
   {
       "id": 6,
       "title": "My awesome project 6",
       "description": "This is my awesome project that I have done in just 3 hours",
-      "image": "/img/project-3.png"
+      "image": "/assets/image-project-6.png"
   }
 ]
