@@ -38,7 +38,7 @@ function NavBar() {
               </NavLink>
             </li>
             <a href={resume} download={resume}>
-            <button type="button" className="btn btn-success btn-sm">RESUME</button>
+              <button type="button" className="btn btn-success btn-sm">RESUME</button>
             </a>
           </ul>
         </div>
