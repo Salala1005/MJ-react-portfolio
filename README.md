@@ -21,7 +21,7 @@ I created portfolio using React to scaffolding the web application.
   5. npm run dev 
  
   ### Demonstration
- ![Screenshot](/assets/screenshot.png)</br>
+ ![Screenshot](./public/assets/screenshot.png)</br>
  [GitHub](https://github.com/Salala1005/MJ-react-portfolio)</br>
  [Webpage](https://salala1005.github.io/MJ-react-portfolio/#)
 
