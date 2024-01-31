@@ -4,7 +4,7 @@ body {
   font-family: Poppins;
   margin: 0; 
   padding: 0; 
-  background-image: url("/assets/philip-oroni-8Xi9y3bi_qk-unsplash.jpg");
+  background-image: url("./assets/philip-oroni-8Xi9y3bi_qk-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -77,9 +77,21 @@ body {
 }
 
 /* project cards size */
- .card-img-top {
+ .card {
   width: 100%;
   height: 30vh;
   object-fit: contain;
   } 
+.card-body {
+  padding: 0%;
+  padding-left: 20px;
+}
 
+.custom-card {
+  max-width: 300px; 
+}
+
+.custom-card img {
+  max-width: 100%; /* Ensure the image doesn't exceed the width of the card */
+  height: auto; /* Maintain aspect ratio */
+}

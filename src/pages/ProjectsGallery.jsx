@@ -8,9 +8,9 @@ function ProjectsGallery() {
           <div>
               <p className="project-intro">PROJECTS GALLERY</p>
           </div>
-          <div className='row' style ={{'--col-gap':'.25rem', gap:'.25rem'}}>
+          <div className='row' style ={{display:"flex", gap:"30px", justifyContent:"center"}}>
               { projects.map((project) => {
-                  return <Project key={project.id} title={project.title} image={project.image} />;
+                  return <Project key={project.id} title={project.title} image={project.image} link1={project.link1} link2={project.link2} />;
               })}
           </div>
     </div>

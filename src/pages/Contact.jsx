@@ -2,8 +2,19 @@ import ContactForm from "../components/ContactForm";
 import '../App.css';
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+// import { useLocation } from 'react-router-dom';
+// import { useEffect} from 'react';
 
 function Contact() {
+  // const location = useLocation();
+  //   useEffect(() => {
+  //       console.log(location);
+  //       if (location.pathname === '/Contact') {
+  //           document.body.style.backgroundColor = "#286F6C"
+  //           document.body.style.backgroundImage = 'url("")'
+  //           console.log('ok')
+  //       }
+  //   }, [location])
   return (
           <div className="contact-info contact-page">
             <h2>CONTACT ME</h2>

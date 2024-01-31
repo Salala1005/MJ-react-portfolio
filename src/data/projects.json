@@ -4,13 +4,17 @@
       "id": 1,
       "title": "Team profile generator",
       "description": "This is my awesome project that I have done in just 1 hour",
-      "image": "./assets/image-project-1.png"
+      "image": "./assets/image-project-1.png",
+      "link1": "https://salala1005.github.io/MJ-portfolio-web/",
+      "link2": "https://github.com/Salala1005/MJ-Team-profile-generator"
   },
   {
       "id": 2,
       "title": "Weather dashboard",
       "description": "This is my awesome project that I have done in just 2 hours",
-      "image": "./assets/image-project-2.png"
+      "image": "./assets/image-project-2.png",
+      "link1": "https://salala1005.github.io/MJ-weather-dashboard/",
+      "link2": "https://github.com/Salala1005/MJ-weather-dashboard"
   },
   {
       "id": 3,
@@ -24,18 +28,24 @@
       "id": 4,
       "title": "Capital cities Quiz",
       "description": "This is my awesome project that I have done in just 3 hours",
-      "image": "./assets/image-project-4.png"
+      "image": "./assets/image-project-4.png",
+      "link1": "https://salala1005.github.io/multiple-choice-quiz/",
+      "link2": "https://github.com/Salala1005/multiple-choice-quiz"
   },
   {
       "id": 5,
       "title": "Day planner",
       "description": "This is my awesome project that I have done in just 3 hours",
-      "image": "./assets/image-project-5.png"
+      "image": "./assets/image-project-5.png",
+      "link1": "https://salala1005.github.io/MJ-planner-app/",
+      "link2": "https://github.com/Salala1005/MJ-planner-app"
   },
   {
       "id": 6,
       "title": "Password generator",
       "description": "This is my awesome project that I have done in just 3 hours",
-      "image": "./assets/image-project-6.png"
+      "image": "./assets/image-project-6.png",
+      "link1": "https://salala1005.github.io/MJ-password-generator/",
+      "link2": "https://github.com/Salala1005/MJ-password-generator"
   }
 ]

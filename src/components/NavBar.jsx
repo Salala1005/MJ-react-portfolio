@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
-import resume from "/assets/MJ-FrontEnd.pdf";
+import resume from "/assets/MJ-frontend-CV.pdf";
 
 function NavBar() {
-  const resumeBtn = "/assets/MJ-FrontEnd.pdf";
+  const resumeBtn = "/assets/MJ-frontend-CV.pdf";
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
