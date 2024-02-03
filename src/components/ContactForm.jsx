@@ -16,8 +16,13 @@ function ContactForm() {
       }
       function handleSubmit(e) {
         e.preventDefault();
-        console.log("Submitted email:", email, "and message:", message);
-        alert('Your Message has sent successfully! Thank you.');
+        // console.log("Submitted email:", email, "and message:", message);
+        if (email === "" || message ==="") {
+          alert('Please write your Email and Messge')
+        } else if (!email.includes("@")) {
+          alert('Please write valid Email address')
+        } else {
+        alert('Your Message has sent successfully! Thank you.')};
         setEmail('');
         setMessage('');
       }

@@ -70,10 +70,11 @@ body {
   padding-top: 10px;
 }
 
+/* home-footer icons link */
 .mx-3 {
   font-size: 30px;
   color: var(--2, #286F6C);
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 /* project cards size */

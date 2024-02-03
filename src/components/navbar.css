@@ -30,6 +30,6 @@
 
 .btn-sm {
   padding-left: none;
-  padding-top: none;
+  margin-top: 5px;
   /* minWidth: 80px; */
 }
