@@ -11,7 +11,7 @@ function Project(props) {
   };
 
   return (
-        <div className="col-3">
+        <div className="col-md-3">
             <div className="card custom-card" >
               <img src={image} className="card-img-top" alt="..." />
               <div className="card-body">
